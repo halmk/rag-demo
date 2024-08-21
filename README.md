@@ -103,7 +103,7 @@ Gradioを用いて、ユーザーインターフェースを構築します。�
 3. Qdrantから関連するドキュメントを検索する
 4. 検索結果をGPT-4oに渡し、回答を生成する
 
-Gradioは適当に入出力のUIを指定するだけでPythonのみでリッチなUIを簡単に構築できるのでデモには最適ですね。
+Gradioは適当に入出力のUIを指定するだけでPythonのみでリッチなUIを簡単に構築できるのでデモには最適です。
 
 検索結果を渡して回答を生成するときのプロンプトはより工夫したほうが精度が上がると思います。
 LLMをよりシステム内で活用するためには、Function CallingやStructured Outputなどを活用するケースもあります。
@@ -195,7 +195,7 @@ demo.launch(server_name="0.0.0.0", server_port=7860)
 QdrantとAPIを用いることでローカルでシンプルにRAGを構築することができました。また、Gradioを用いることでデモアプリも簡単に構築しました。
 
 
-### 参考文献
+### 参考
 - [Qdrant Documentation](https://qdrant.tech/documentation/)
 - [OpenAI API](https://platform.openai.com/docs/overview)
 - [Gradio Documentation](https://gradio.app/docs/)
